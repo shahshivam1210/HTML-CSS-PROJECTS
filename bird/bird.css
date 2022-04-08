@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*font-family: 'Balsamiq Sans', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Varela Round', sans-serif;*/
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(46, 94, 75), rgb(116, 187, 154), rgb(187, 167, 167)
+    );
+}
+.list ul{
+    background-color: aqua;
+    margin-right: 700px;
+    margin-left: 200px;
+}
+.list ul li{
+    position: absolute;
+    top: 40px;
+    list-style: none;
+}
+.list ul li a{
+    padding: 0px 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font:20px;
+}
+.search{
+    width: 300px;
+    height: 4vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    left: 700px;
+    top: 35px;
+    border: 1.5px black solid;
+    border-color: rgb(170, 170, 170);
+}
+.search p{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font: 20px;
+    position: absolute;
+    top: 5px;
+    left: 310px;
+}
+#backg{
+    width: 20%;
+    height: 50vh;
+    border-radius: 50% 50% 5% 5%;
+    position: absolute;
+    left: 900px;
+    top: 150px;
+}
+#onbackg{
+    position: absolute;
+    left: 750px;
+    top: 120px;
+    transform: scalex(-1);
+    transition: 1s;
+}
+#onbackg:hover{
+    transform: scalex(+1);
+    transition: 1s;
+}
+.heading h1{
+    font-family: 'Inspiration', cursive;
+    font-size: 80px;
+    margin-right: 800px;
+    color: white;
+    font: bolder;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.heading p{
+    color: white;
+    margin-right: 500px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    position: absolute;
+    top: 370px;
+    left: 100px;
+}
+.heading button{
+    position: absolute;
+    left: 100px;
+    top: 490px;
+    padding: 7px 80px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    background-color:whitesmoke;
+}
+#nextdesgin{
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    padding: 10px 30px;
+    position: relative;
+    top: 590px;
+    left: 600px;
+    border-radius: 20px;
+}

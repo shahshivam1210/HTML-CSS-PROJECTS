@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.nike{
+    display: inline-flex;
+}
+.nike h1{
+    font: 900px;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: italic;   
+}
+.nike ul li{
+    display: inline-flex;
+    position: relative;
+    left: 507px;
+    padding-top: 50px;
+}
+.nike ul li a{
+    margin-left: 35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    border-top-left-radius: 12px;
+    border-end-start-radius: 12px;
+    border-end-end-radius: 12px;
+    border: 2px black solid;
+}
+.nike ul li a:hover{
+    border-top-right-radius: 12px;
+    border-end-start-radius: 0px;
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+#img1{
+    position: relative; 
+    left: 800px;
+    top: 80px;
+}
+#img2{
+    width: 30%;
+    position: relative;
+    left: 390px;
+    bottom: 10px;
+}
+#img3{
+    width: 362px;
+    height: 125px;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
+.money{
+    display: inline-block;
+}
+#name{
+    position: relative;
+    left: 860px;
+}
+#price{
+    position: relative;
+    left: 670px;
+    top: 70px;
+}
+.imge h1{
+    font-size: 50px;
+    position: relative;
+    top: 170px;
+    padding-left: 240px;
+}
+.imge p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    padding-right: 600px;
+}
+#left{
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    left: 700px;
+    bottom: 175px;
+    background-color: rgb(63, 63, 63);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px black solid;
+    border-top-left-radius: 12px;
+    border-end-end-radius: 12px;
+}
+#right{
+    color: white;
+    position: relative;
+    left: 84%;
+    bottom: 175px;
+    font-family: sans-serif;
+    border: 2px black solid;
+    background-color: rgb(63, 63, 63);
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 14px;
+    border-top-left-radius: 12px;
+    border-end-end-radius: 12px;
+}
+#name{
+    text-decoration: none;
+    position: relative;
+    left: 910px;
+    top: 15px;
+    color: rgb(41, 41, 41);
+}
+#price{
+    text-decoration: none;
+    position: relative;
+    left: 790px;
+    top: 35px;
+    color: rgb(41, 41, 41);
+}
+.log{
+    padding-left: 300px;
+}
+#log{
+    position: relative;
+    right: 20px;
+    padding-left: 16px;
+    padding-top:8px ;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-top-left-radius: 12px;
+    border-end-end-radius: 12px;
+
+}
+#sign{
+    position: relative;
+    left: 20px;
+    padding-left: 16px;
+    padding-top:8px ;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-top-left-radius: 12px;
+    border-end-end-radius: 12px;
+
+}
+#nextdesgin{
+    position: absolute;
+    top: 580px;
+    left: 600px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
