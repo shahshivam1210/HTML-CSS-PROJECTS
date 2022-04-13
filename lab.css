@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Nunito:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Oswald:wght@400;500;600;700&family=Oxygen:wght@400;700&family=Source+Sans+Pro:ital,wght@0,700;0,900;1,600;1,700&display=swap');
+
+/*
+font-family: 'Beau Rivage', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+.lab{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+}
+.nav h1{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.nav h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    position: relative;
+    font-size: 14px;
+    left:150px;
+    top: 35px;
+}
+.nav ul{
+    position: relative;
+    left: 700px;
+    top: 25px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 70px;
+}
+#link4{
+    color: rgb(46, 45, 45);
+    font-size: 30px;
+    font-weight: 700px;
+    font:bolder;
+    position: relative;
+    top: -5px;
+}
+#link1{
+    color: rgb(46, 45, 45);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800px;
+}
+#link2{
+    color: rgb(46, 45, 45);
+    font-family: 'Oswald', sans-serif;
+
+}
+#link3{
+    color: rgb(46, 45, 45);
+    font-family: 'Oswald', sans-serif;
+    font: bolder;
+
+}
+a i{
+    position: relative;
+    left: 5px;
+    font-size: larger;
+    font-weight: 500px;
+}
+.back h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 150px;
+    display: inline ;
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+.date{
+    transform: rotate(90deg);
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+    top: -30px;
+}
+.center img{
+    width: 550px;
+    display: inline;
+    position: absolute;
+    top: 113px;
+    left: 400px;
+}
+#big-R{
+    color: red;
+    display: inline;
+    font-size: 200px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    border: 30px red solid;
+    padding: 20px 60px ;
+    border-radius: 50%;
+    position: relative;
+    left: 350px;
+}
+#left-text{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    left: -250px;
+    top: -100px;
+    font-weight: 600;
+}
+#chines{
+    position: relative;
+    top: -43px;
+    left: 329px;
+    font-size: 20px;
+}
+#right-head{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: -200px;
+    left: 750px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+
+}
+#line{
+    width: 5px;
+    height: 170px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
+    left: 1230px;
+}
+#text1{
+    display: inline;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: 800;
+}
+#text2{
+    display: inline;
+    position: absolute;
+    top: 350px;
+    left: 1070px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: 800;
+}
+.center i{
+    position: relative;
+    left: 860px;
+    top: -120px;
+    font-size: 20px;
+    border: 2px rgb(248, 170, 97) solid;
+    padding: 7px;
+    color: rgb(248, 170, 97);
+    border-radius: 50%;
+}
+.center i:hover{
+    color: red;
+    border-color: red;
+    transition: 0.7s;
+}
+.last button{
+    position: absolute ;
+    left: 1315px;
+    top: 560px;
+    padding: 40px 15px ;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    border-style: none;
+    border-radius: 5px;
+}
+.last p{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    top: 500px;
+    left: 80px;
+    font-weight: 700;
+}
